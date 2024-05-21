@@ -6,21 +6,10 @@
 using namespace std;
 
 int combineDigit(int f_digit, int l_digit) {
-  /* int final = f_digit + l_digit;  */
-  /* return final; */
   return f_digit * 10 + l_digit;
 }
 
-/* <leader>co */
-void calculateNum(int n) {
-
-
-}
-
 int main () {
-
-  /* string challenge; */
-
   ifstream mfiles("calibrate.txt");
 
   if (!mfiles.is_open()) {
@@ -58,11 +47,10 @@ int main () {
 
           finalResult += result;
 
-          // For demonstration, print the result
         }
       }
     }
-    cout << "Total Sum of combineDigit results :" << finalResult << "\n";
+    cout << "Total Sum of combineDigit results : " << finalResult << "\n";
   }
 
 
