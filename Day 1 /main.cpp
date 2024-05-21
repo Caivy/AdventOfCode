@@ -61,10 +61,8 @@ int main () {
           // For demonstration, print the result
         }
       }
-      cout << "Total Sum of combineDigit results :" << finalResult << "\n";
     }
-
-
+    cout << "Total Sum of combineDigit results :" << finalResult << "\n";
   }
 
 
